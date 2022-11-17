@@ -13,6 +13,10 @@
   </head>
 
   <body>
+    <nav class="d-flex justify-content-between m-4 menu">
+      <p><%= link_to "Simple AirBNB", flats_path %></p>
+      <p><%= link_to "Add flat", new_flat_path %></p>
+    </nav>
     <%= yield %>
   </body>
 </html>

@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
+ .menu a {
+  background-color: #e91e63;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+ }
+
+ .card-show {
+  padding: 3px 10px;
+  margin: 20px 20px 10px 10px;
+  margin-top: 6px;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 100px;
+  background-color: #88848415;
+ }

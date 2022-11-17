@@ -1,0 +1,14 @@
+<h1 class= "text-center mt-3">Edit your flat!</h1>
+
+<div class="container">
+  <div class="row col-6 d-flex justify-content-center mt-3">
+    <%= simple_form_for(@flat) do |f| %>
+      <%= f.input :name %>
+      <%= f.input :address %>
+      <%= f.input :description %>
+      <%= f.input :price_per_night %>
+      <%= f.input :number_of_guests %>
+      <%= f.submit %>
+    <% end %>
+  </div>
+</div>
